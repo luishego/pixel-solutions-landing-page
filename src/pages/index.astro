@@ -1,0 +1,83 @@
+---
+import '../styles/global.css';
+---
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>pixelSolutions — proyectos</title>
+  <meta name="description" content="Análisis, diseño y código en un solo equipo — proyectos que ya están en producción." />
+  <link rel="icon" href="data:," />
+</head>
+<body>
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="brand"><span class="brand-dot"></span><span>pixelSolutions</span></div>
+      <nav class="nav">
+        <a href="#servicios" class="nav-link" data-t="navServices">Servicios</a>
+        <a href="#proyectos" class="nav-link" data-t="navProjects">Proyectos</a>
+        <a href="#contacto" class="nav-cta" data-t="navCta">Agendar llamada</a>
+      </nav>
+    </div>
+  </div>
+
+  <div class="hero">
+    <p class="eyebrow"><span class="eyebrow-rule"></span><span data-t="eyebrow">Estudio pixelSolutions</span></p>
+    <h1 class="hero-title" data-t="heroTitle">Proyectos que ya están en producción.</h1>
+    <p class="hero-lede" data-t="heroLede">Análisis, diseño y código en un solo equipo.</p>
+    <div class="hero-actions">
+      <a href="#proyectos" class="btn-primary" data-t="heroBtnPrimary">Ver proyectos</a>
+      <a href="#contacto" class="btn-secondary" data-t="heroBtnSecondary">Hablemos de tu proyecto</a>
+    </div>
+  </div>
+
+  <div id="servicios" class="section">
+    <div class="card">
+      <div class="card-head">
+        <span class="step">01</span>
+        <h2 class="section-title" data-t="servicesTitle">Cómo trabajamos<span class="section-subtitle" data-t="servicesSubtitle">Cuatro disciplinas, un solo equipo.</span></h2>
+      </div>
+      <div id="services-grid" class="services-grid"></div>
+    </div>
+  </div>
+
+  <div id="proyectos" class="section">
+    <div class="section-head">
+      <span class="step">02</span>
+      <h2 class="section-title" data-t="projectsTitle">Proyectos<span class="section-subtitle" data-t="projectsSubtitle">Cuatro piezas recientes.</span></h2>
+    </div>
+    <div id="projects-list" class="projects-list"></div>
+  </div>
+
+  <div id="project-modal" class="modal">
+    <div id="modal-backdrop" class="modal-backdrop"></div>
+    <div class="modal-card">
+      <button id="modal-close" class="modal-close" aria-label="Cerrar">×</button>
+      <div class="modal-img">
+        <span class="modal-img-fallback"></span>
+      </div>
+      <div class="modal-body">
+        <span class="tag modal-tag"></span>
+        <h3 class="modal-name"></h3>
+        <p class="modal-role"></p>
+        <p class="modal-detail"></p>
+        <div class="modal-stack"></div>
+        <a class="modal-link" target="_blank" rel="noopener"></a>
+      </div>
+    </div>
+  </div>
+
+  <div id="contacto" class="section">
+    <div class="cta-card">
+      <p class="cta-eyebrow" data-t="ctaEyebrow">¿Tienes un proyecto en mente?</p>
+      <h2 class="cta-title" data-t="ctaTitle">15 a 20 minutos, sin compromiso.</h2>
+      <p class="cta-lede" data-t="ctaLede">Cuéntanos sobre tu proyecto.</p>
+      <a href="mailto:hola@pixelsolutions.com" class="btn-primary" data-t="ctaBtn">Agendar llamada</a>
+    </div>
+    <p class="footer">pixelSolutions · <span data-t="footer">proyectos · julio 2026</span></p>
+  </div>
+
+  <script type="module" src="/src/scripts/app.js"></script>
+</body>
+</html>
