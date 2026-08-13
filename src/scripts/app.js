@@ -1,4 +1,4 @@
-import { copy, servicesByLang, projectsByLang } from '../src/data/content.js';
+import { copy, servicesByLang, projectsByLang } from '../data/content.js';
 
 const root = document.documentElement;
 
