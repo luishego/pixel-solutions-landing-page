@@ -34,23 +34,23 @@ function render() {
   const servicesGrid = document.getElementById('services-grid');
   servicesGrid.innerHTML = services.map(s => `
     <div>
-      <div class="dot" style="background:var(--\${s.color})"></div>
-      <h3 class="service-title">\${esc(s.title)}</h3>
-      <p class="service-desc">\${esc(s.desc)}</p>
+      <div class="dot" style="background:var(--${s.color})"></div>
+      <h3 class="service-title">${esc(s.title)}</h3>
+      <p class="service-desc">${esc(s.desc)}</p>
     </div>
   `).join('');
 
   const list = document.getElementById('projects-list');
   list.innerHTML = projects.map(p => `
-    <div class="project-row" data-id="\${p.id}" tabindex="0" role="button">
-      <div class="project-img" style="background-image:url('/images/\${p.img}')">
-        <span class="project-img-fallback">\${esc(p.imgPlaceholder)}</span>
+    <div class="project-row" data-id="${p.id}" tabindex="0" role="button">
+      <div class="project-img" style="background-image:url('/images/${p.img}')">
+        <span class="project-img-fallback">${esc(p.imgPlaceholder)}</span>
       </div>
       <div class="project-body">
-        <span class="tag">\${esc(p.tag)}</span>
-        <h3 class="project-name">\${esc(p.name)}</h3>
-        <p class="project-summary">\${esc(p.summary)}</p>
-        <span class="view-more">\${esc(t.viewMore)} →</span>
+        <span class="tag">${esc(p.tag)}</span>
+        <h3 class="project-name">${esc(p.name)}</h3>
+        <p class="project-summary">${esc(p.summary)}</p>
+        <span class="view-more">${esc(t.viewMore)} →</span>
       </div>
     </div>
   `).join('');
@@ -64,13 +64,13 @@ function render() {
     const p = projectsByLang[lang].find(x => x.id === id);
     if (!p) return;
     const modal = document.getElementById('project-modal');
-    modal.querySelector('.modal-img').style.backgroundImage = `url('/images/\${p.img}')`;
+    modal.querySelector('.modal-img').style.backgroundImage = `url('/images/${p.img}')`;
     modal.querySelector('.modal-img-fallback').textContent = p.imgPlaceholder;
     modal.querySelector('.modal-tag').textContent = p.tag;
     modal.querySelector('.modal-name').textContent = p.name;
     modal.querySelector('.modal-role').textContent = p.role;
     modal.querySelector('.modal-detail').textContent = p.detail;
-    modal.querySelector('.modal-stack').innerHTML = p.stack.map(s => `<span class="stack-chip">\${esc(s)}</span>`).join('');
+    modal.querySelector('.modal-stack').innerHTML = p.stack.map(s => `<span class="stack-chip"> ${esc(s)} </span>`).join('');
     const link = modal.querySelector('.modal-link');
     link.href = p.link;
     link.textContent = p.linkLabel + ' →';

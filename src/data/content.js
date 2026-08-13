@@ -58,13 +58,13 @@ export const projectsByLang = {
       link: 'https://www.kumobi.com.mx', linkLabel: 'Ver sitio en vivo'
     },
     {
-      id: 'draisa', img: 'draisa.jpg', imgPlaceholder: 'Captura de Dra. Jesica Interniasa',
-      tag: 'Sitio web · Salud', name: 'Dra. Jesica Interniasa',
+      id: 'draisa', img: 'draisa.jpg', imgPlaceholder: 'Captura de Dra. Jesica Internista',
+      tag: 'Sitio web · Salud', name: 'Dra. Jesica Internista',
       summary: 'Sitio de citas para consultorio de medicina interna: información clara para pacientes y agenda simple.',
       role: 'Sitio web + agenda de citas',
       detail: 'Un sitio pensado para pacientes, no para el consultorio: presenta a la doctora, los servicios de medicina interna y un camino directo para agendar cita por WhatsApp, sin formularios largos ni fricción.',
       stack: ['Sitio web', 'Agenda de citas', 'SEO local'],
-      link: 'https://www.drajesicainternisa.com', linkLabel: 'Ver sitio en vivo'
+      link: 'https://www.drajesicainternista.com', linkLabel: 'Ver sitio en vivo'
     },
     {
       id: 'placeholder-3', img: 'project-3.jpg', imgPlaceholder: 'Reemplaza con tu captura',
@@ -91,18 +91,18 @@ export const projectsByLang = {
       tag: 'Brand · Website', name: 'KUMOBI',
       summary: 'A Mexico City dark kitchen with a full cyberpunk identity: story world, menu and ordering in one site.',
       role: 'Narrative branding + ordering site',
-      detail: 'We built KUMOBI\'s brand universe from scratch: a dark kitchen framed as a clandestine faction in a sci-fi Mixcoac. The site turns that story into menu, hours and ordering channels (Rappi, WhatsApp, pickup) without losing the character voice.',
+      detail: 'We built KUMOBI brand universe from scratch: a dark kitchen framed as a clandestine faction in a sci-fi Mixcoac. The site turns that story into menu, hours and ordering channels (Rappi, WhatsApp, pickup) without losing the character voice.',
       stack: ['Brand design', 'Website', 'Copywriting'],
       link: 'https://www.kumobi.com.mx', linkLabel: 'View live site'
     },
     {
-      id: 'draisa', img: 'draisa.jpg', imgPlaceholder: 'Dra. Jesica Interniasa screenshot',
-      tag: 'Website · Health', name: 'Dra. Jesica Interniasa',
+      id: 'draisa', img: 'draisa.jpg', imgPlaceholder: 'Dra. Jesica Internista screenshot',
+      tag: 'Website · Health', name: 'Dra. Jesica Internista',
       summary: 'Appointment site for an internal medicine practice: clear info for patients and simple scheduling.',
       role: 'Website + appointment booking',
       detail: 'A site built for patients, not the office: introduces the doctor, the internal medicine services offered, and a direct path to book via WhatsApp — no long forms, no friction.',
       stack: ['Website', 'Appointment booking', 'Local SEO'],
-      link: 'https://www.drajesicainternisa.com', linkLabel: 'View live site'
+      link: 'https://www.drajesicainternista.com', linkLabel: 'View live site'
     },
     {
       id: 'placeholder-3', img: 'project-3.jpg', imgPlaceholder: 'Replace with your screenshot',
