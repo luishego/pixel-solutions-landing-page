@@ -2,3 +2,7 @@ dist/
 .astro/
 node_modules/
 .DS_Store
+# Entorno (secretos)
+.env
+.env.*
+.env.example
